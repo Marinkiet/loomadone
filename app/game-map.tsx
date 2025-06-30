@@ -308,7 +308,7 @@ export default function LoomaLandScreen() {
 
   const handleVisitLoomaLand = async () => {
     try {
-      await WebBrowser.openBrowserAsync('https://aikwetu-3.vercel.app/');
+      await WebBrowser.openBrowserAsync('https://loomaland.netlify.app/');
     } catch (error) {
       Alert.alert('Error', 'Could not open LoomaLand');
     }
